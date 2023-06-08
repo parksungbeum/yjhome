@@ -4,28 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>대구 국비지원 무료교육 영진직업전문학교</title>
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <!-- 캐러셀 step2) 제이쿼리 및 bxslider 라이브러리 및 css 삽입 -->
-    <link rel="stylesheet" href="css/jquery.bxslider.css" />
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-
-    <!-- 캐러셀 step3) bxSlider() 실행 -->
-    <script>
-      $(document).ready(function () {
-        $(".slider").bxSlider({
-          slideWidth: 1800,
-          captions: true,
-          auto: true,
-          autoControls: true,
-          stopAutoOnclick: true,
-        });
-      });
-    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style_2.css" />
   </head>
   <body>
+    <!--헤더-->
     <header>
       <div id="header_top">
         <nav id="header_gnb">
@@ -34,8 +17,8 @@
             <li><a href="#">NCS평가</a></li>
             <li><a href="#">시험응시</a></li>
             <li><a href="#">정보수정</a></li>
-            <li><a href="#">회원가입</a></li>
-            <li><a href="file:///C:/Users/YJ/Desktop/yjhome/login.html">로그인</a></li>
+            <li><a href="#">회원탈퇴</a></li>
+            <li><a href="#">로그아웃</a></li>
             <li><a href="#">사이트맵</a></li>
           </ul>
         </nav>
@@ -46,7 +29,7 @@
             <img src="./images/yj_toggle.png" alt="영진직업전문학교 토글" />
           </div>
           <div id="title">
-            <img src="./images/yj_log.png" alt="영진직업전문학교 로고" />
+            <a href="index.html"><img src="./images/yj_log.png" alt="영진직업전문학교 로고" /></a>
           </div>
           <nav id="header_lnb">
             <ul>
@@ -55,12 +38,7 @@
               <li><a href="#">과정소개</a></li>
               <li><a href="#">취업센터</a></li>
               <li><a href="#">커뮤니티</a></li>
-              <li>
-                <a
-                  href="sub_1.html"
-                  >학교소개</a
-                >
-              </li>
+              <li><a href="#">학교소개</a></li>
             </ul>
           </nav>
           <div id="phone">
@@ -70,16 +48,6 @@
       </div>
     </header>
     <div id="contents">
-      <div id="mainimage_wrapper">
-        <!-- 캐러셀 step1) bxlider 구현을 위한 레이아웃구조 -->
-        <div class="slider">
-          <div class="mainimage"><img src="./images/mainimage01.JPG" /></div>
-          <div class="mainimage"><img src="./images/mainimage02.JPG" /></div>
-          <div class="mainimage"><img src="./images/mainimage03.JPG" /></div>
-          <div class="mainimage"><img src="./images/mainimage04.JPG" /></div>
-          <div class="mainimage"><img src="./images/mainimage05.JPG" /></div>
-        </div>
-      </div>
       <div id="class_wrapper">
         <div class="wrapper" id="class_tab">
           <input
@@ -94,58 +62,42 @@
           <input id="class_fourth" type="radio" name="class_tab" />
           <input id="class_fifth" type="radio" name="class_tab" />
           <input id="class_sixth" type="radio" name="class_tab" />
+          <input id="class_sevth" type="radio" name="class_tab" />
           <section class="class_buttons">
-            <label for="class_first">전체과정</label>
-            <label for="class_second">IT/SW</label>
-            <label for="class_third">전기PLC</label>
-            <label for="class_fourth">기계설계</label>
-            <label for="class_fifth">디자인</label>
-            <label for="class_sixth">용접</label>
+            <label for="class_first">인사말</label>
+            <label for="class_second">조직도 및 연혁</label>
+            <label for="class_third">교육시스템</label>
+            <label for="class_fourth">시설안내</label>
+            <label for="class_fifth">교직원소개</label>
+            <label for="class_sixth">오시는 길</label>
+            <label for="class_sevth">교육채용(상시)</label>
           </section>
           <div class="class_tab_item">
-            <img src="./images/class_tab_item01.png" />
-            <img src="./images/class_tab_item05.png" />
-            <img src="./images/class_tab_item06.png" />
-            <img src="./images/class_tab_item09.png" />
+            <img src="./images/page (1).png" />
           </div>
           <div class="class_tab_item">
-            <img src="./images/class_tab_item01.png" />
-            <img src="./images/class_tab_item02.png" />
-            <img src="./images/class_tab_item03.png" />
-            <img src="./images/class_tab_item04.png" />
+            <img src="./images/page (2).png" />
           </div>
           <div class="class_tab_item">
-            <img src="./images/class_tab_item05.png" />
+            <img src="./images/page (3).png" />
           </div>
           <div class="class_tab_item">
-            <img src="./images/class_tab_item06.png" />
+            <img src="./images/page (4).png" />
           </div>
           <div class="class_tab_item">
-            <img src="./images/class_tab_item07.png" />
-            <img src="./images/class_tab_item08.png" />
+            <img src="./images/page (5).png" />
           </div>
           <div class="class_tab_item">
-            <img src="./images/class_tab_item09.png" />
+            <!-- <img src="./images/page (6).png" /> -->
           </div>
-        </div>
-      </div>
-      <div id="edu_wrapper">
-        <div class="wrapper">
-          <input id="job_hunter" type="radio" name="training_tab" />
-          <input id="warker" type="radio" name="training_tab" />
-          <section id=" training_button">
-            <label for="job_hunter">구직자들을 위한 교육</label>
-            <label for="warker">제직자들을 위한 교육</label>
-          </section>
-          <div class="edu_tab_item">
-            <img src="./images/edu_tab_item01.png" alt="" />
-          </div>
-          <div class="edu_tab_item">
-            <img src="./images/edu_tab_item02.png" />
+          <div class="class_tab_item">
+            <img src="./images/page (6).png" />
           </div>
         </div>
       </div>
     </div>
+
+    <!--푸터-->
     <footer>
       <div class="wrapper">
         <p id="footer_1">개인정보보호정책 메일주소무단수집거부</p>
