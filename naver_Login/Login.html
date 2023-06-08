@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="./">
+  </head>
+  <body>
+    <!--헤더-->
+    <header>
+      <div id="header_top">
+        <nav id="header_gnb">
+          <ul>
+            <li><a href="#">학생관리</a></li>
+            <li><a href="#">NCS평가</a></li>
+            <li><a href="#">시험응시</a></li>
+            <li><a href="#">정보수정</a></li>
+            <li><a href="#">회원탈퇴</a></li>
+            <li><a href="#">로그아웃</a></li>
+            <li><a href="#">사이트맵</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="header_bottom">
+        <div class="wrapper">
+          <div id="toggle">
+            <img src="./images/yj_toggle.png" alt="영진직업전문학교 토글" />
+          </div>
+          <div id="title">
+            <a href="index.html"><img src="./" alt="영진직업전문학교 로고" /></a>
+          </div>
+          <nav id="header_lnb">
+            <ul>
+              <li><a href="#">모집과정</a></li>
+              <li><a href="#">입학상담</a></li>
+              <li><a href="#">과정소개</a></li>
+              <li><a href="#">취업센터</a></li>
+              <li><a href="#">커뮤니티</a></li>
+              <li><a href="#">학교소개</a></li>
+            </ul>
+          </nav>
+          <div id="phone">
+            <img src="./images/main_tel.png" alt="전화 이미지" width="40px" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--로그인-->
+    <div class="main">
+      <h1 class="logo">영진직업전문학교<br /></h1>
+      <h2 class="logo">로그인</h2>
+      <div class="container">
+            아이디 <br>
+        <input type="text" placeholder="아이디" id="id" class="account" /><br>
+            비밀번호 <br>
+        <input
+          type="password"
+          placeholder="비밀번호"
+          id="password"
+          class="account"
+        /><br />
+        <div id="main_login">
+          <input type="checkbox" />자동로그인
+          <button id="login" class="account">로그인</button>
+          <p id="alert" class="account"></p>
+        </div>
+        <div id="id_make">
+          <a href="#"><p>회원가입</p></a>
+          <a href="#"><p>아이디/비밀번호 찾기</p></a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+     <!--푸터-->
+     <footer>
+      <div class="wrapper">
+        <p id="footer_1">개인정보보호정책 메일주소무단수집거부</p>
+        <p>
+          회사명 : 영진직업전문학교 대표자 : 곽승호, 차영숙 cha8877@hanmail.net
+          Tel : 053-983-8877 Fax : 053-722-2423<br />
+          개인정보보호책임자 : 이동석cha8877@hanmail.net Tel : 053-983-8877
+          사업자번호 : 502-95-07029<br />
+          701-835 대구광역시 동구 화랑로 525(용계동), 조경실습장 : 대구 동구도동
+          806-21<br />
+          copyright © 대구국비지원 무료교육센터 영진직업전문학교. All Rights
+          Reserved.
+        </p>
+        <img
+          src="./images/footer_sns01.png"
+          style="width: 30px; height: 30px"
+        />
+        <img
+          src="./images/footer_sns02.png"
+          style="width: 30px; height: 30px"
+        />
+        <img
+          src="./images/footer_sns03.png"
+          style="width: 30px; height: 30px"
+        />
+        <img
+          src="./images/footer_sns04.png"
+          style="width: 30px; height: 30px"
+        />
+      </div>
+    </footer>
+  </body>
+</html>

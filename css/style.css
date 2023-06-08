@@ -1,0 +1,129 @@
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+
+/* 공통 부분 */
+.wrapper {
+  max-width: 1200px;
+  /* border: 1px solid green; */
+  margin: 0 auto;
+}
+/* 헤더 스타일 */
+header {
+  background: white;
+}
+/* header #header_top {
+    border: 1px solid black;
+  } */
+header #header_top #header_gnb ul {
+  /* border: 1px solid black; */
+  text-align: right;
+  padding-right: 5%;
+}
+header #header_top #header_gnb ul li {
+  padding: 4px 11px;
+}
+header #header_top #header_gnb ul li a {
+  color: #444;
+  font-size: 11pt;
+}
+
+header #header_bottom {
+  /* border: 1px solid black; */
+  padding-top: 20px;
+}
+
+header #header_bottom .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+header #header_bottom #header_lnb ul li {
+  padding: 10px 30px;
+}
+header #header_bottom #header_lnb ul li a {
+  color: #111;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+header #header_bottom #toggle {
+  display: none;
+}
+
+header #header_bottom #phone {
+  display: block;
+}
+/*로그인 스타일*/
+.main {
+  border: 1px solid black;
+  padding: 150px;
+}
+.main #line {
+  display: flex;
+  margin: 30px 0;
+}
+.main #Login {
+    margin: 10px;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+.container {
+  border: 1px solid gray;
+  width: 100%;
+  max-width: 300px;
+  /* text-align: center; */
+  padding: 0 20px;
+  color: #767676;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.container #main_login {
+  display: inline-block;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+}
+.container #main_login #login {
+  background-color: #37302f;
+  color: #fff;
+  border-radius: 5px 5px;
+  width: 80px;
+}
+#id_make {
+  display: flex;
+}
+#id_make a {
+  padding: 7px;
+}
+
+/*푸터 스타일*/
+footer {
+  width: 100%;
+  background: #333333;
+}
+footer #footer_1 {
+  color: #ddd;
+  border-bottom: 1px dotted lightgray;
+  padding: 15px;
+  font-size: 1em;
+}
+footer p {
+  padding: 15px;
+  color: #fff;
+}
+footer img {
+  margin-bottom: 10px;
+}
